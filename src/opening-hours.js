@@ -25,7 +25,11 @@ class OpeningHours extends Component {
     return (
       <div className="OpeningHours page-component">
         <div className="page-title-container"><h1>Öppettider</h1></div>
-        <div><h3>Måndag - Fredag: 11.30 - 13:30</h3></div>
+        <div>
+          <h3>Måndag - Fredag</h3>
+          <h3>11.30 - 13:30</h3>
+        </div>
+      
       </div>
     );    
   }
