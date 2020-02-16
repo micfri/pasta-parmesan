@@ -1,0 +1,23 @@
+{
+    
+    "app-name": "Pasta & Parmesan",
+    "_comment": "Define respective react components in page-component.js",
+    "pages": [
+        { 
+            "id": "meny",
+            "title": "Meny"
+        },
+        { 
+            "id": "oppettider",
+            "title": "Öppettider"
+        },
+        { 
+            "id": "kontakt",
+            "title": "Kontakt"
+        },
+        { 
+            "id": "var_resa",
+            "title": "Vår resa"
+        }
+    ]
+}

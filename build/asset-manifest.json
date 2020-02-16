@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa6dd7e3.chunk.css",
+    "main.js": "/static/js/main.42d5c7ff.chunk.js",
+    "main.js.map": "/static/js/main.42d5c7ff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0406866.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0406866.js.map",
+    "static/js/2.7c41066b.chunk.js": "/static/js/2.7c41066b.chunk.js",
+    "static/js/2.7c41066b.chunk.js.map": "/static/js/2.7c41066b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1cf93edeee680924d31159607857a3ec.js": "/precache-manifest.1cf93edeee680924d31159607857a3ec.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fa6dd7e3.chunk.css.map": "/static/css/main.fa6dd7e3.chunk.css.map",
+    "static/js/2.7c41066b.chunk.js.LICENSE": "/static/js/2.7c41066b.chunk.js.LICENSE",
+    "static/media/ItalianBreakfast-Regular.ttf": "/static/media/ItalianBreakfast-Regular.e49d5d42.ttf",
+    "static/media/index.css": "/static/media/Noteworthy-Lt.a254f3ce.woff",
+    "static/media/logo.jpg": "/static/media/logo.a0322464.jpg",
+    "static/media/logo_2020.png": "/static/media/logo_2020.eeb26e29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0406866.js",
+    "static/js/2.7c41066b.chunk.js",
+    "static/css/main.fa6dd7e3.chunk.css",
+    "static/js/main.42d5c7ff.chunk.js"
+  ]
+}

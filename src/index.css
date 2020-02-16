@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Noteworthy Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'ItalianBreakfast';
+  src: local('ItalianBreakfast'), url(./fonts/ItalianBreakfast-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+  font-family: 'Noteworthy Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Noteworthy Light'), url('./fonts/Noteworthy-Lt.woff') format('woff');
+}
+
+h1 {
+  font-family: 'Noteworthy Light';
+  font-size: 75px;
+  font-weight: 100;
+}
+
+h2 {
+  font-family: 'Noteworthy Light';
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.bold {
+  font-family: 'Noteworthy';
+}
