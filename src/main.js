@@ -7,6 +7,8 @@ import resources from './resources.json';
 import { Route, Switch } from 'react-router-dom';
 import RestaurantMenu from './restaurant-menu.js';
 import PageComponent from './page-component.js';
+import Header from './header.js';
+import Footer from './footer.js';
 
 class Main extends Component {
 
@@ -32,7 +34,8 @@ class Main extends Component {
         <div className="content-middle">
           <MenuList list={resources.pages}/>
           <div className="top-row">
-            <div className="logo-container"><img className="logo" src={logo} alt="Logo" /></div>
+            <Header />
+            
           </div>
           <div className="middle-row">
             <Switch >
@@ -46,6 +49,10 @@ class Main extends Component {
                 </Route> 
               ))}
             </Switch>
+          </div>
+          <div className="bottom-row">
+            <Footer />
+            
           </div>
         </div>
       </div>

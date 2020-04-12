@@ -8,6 +8,7 @@ import RestaurantMenu from './restaurant-menu.js';
 import About from './about.js';
 import OpeningHours from './opening-hours.js';
 import Contact from './contact.js';
+
 import { log } from 'util';
 
 class PageComponent extends Component {

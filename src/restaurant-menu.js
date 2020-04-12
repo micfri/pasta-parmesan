@@ -34,30 +34,35 @@ class RestaurantMenu extends Component {
     console.log(this.state.menu);
     
     return (
-      <div className="RestaurantMenu">
+      <div className="RestaurantMenu page-component">
         <div className="menu-container">
           <div className="page-title-container"><h1>Meny</h1></div>
           {this.state.menu.map(item => (
             <div className="menu-entry-container">
               <h2>{item.title}</h2>
-              <p>{item.description}</p>
-              <p>Standard: {item.standard} kr</p>
-              <p>Liten: {item.liten} kr</p>
+              <div className="box-250">
+                <p>{item.description}</p>
+              </div>
+              <p>{item.standard} kr</p>
+              <p>Plus-meny: {item.plus} kr</p>
             </div>
           ))}
         </div>
-        <div>
-          <h2 className="bold">Extra tillval</h2>
-          <p>Vitlökssås 9kr</p>
-          <p>Het salsa 9kr</p>
-          <p>Parmesan 6 mån 9kr</p>
-          <p>Parmesan 12 mån 12kr</p>
+        <div className="col-2 menu-extras">
+          <div className="menu-extras-item">
+            <h2 className="bold">Extra tillval</h2>
+            <p>Vitlökssås 9kr</p>
+            <p>Het salsa 9kr</p>
+            <p>Parmesan 12kr</p>
+          </div>
+          <div className="menu-extras-item">
+            <h2 className="bold">Allergier</h2>
+            <p>Fråga!</p>
+            <p>Vi försöker anpassa oss men det kan ta en minut extra för dig.</p>
+          </div>
+
         </div>
-        <div>
-          <h2 className="bold">Allergier</h2>
-          <p>Fråga!</p>
-          <p>Vi försöker anpassa oss men det kan ta en minut extra för dig.</p>
-        </div>
+        
       </div>
     );    
   }

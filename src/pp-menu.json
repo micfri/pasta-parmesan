@@ -2,40 +2,34 @@
     "ppmenu": [
         {
             "title": "Skaldjurspasta",
-            "price": "98",
             "description": "Fräsch pasta med handpillade räkor, vitt vin, purjolök, chilli och vitlök.",
             "standard": "98",
-            "liten": "78"
+            "plus": "113"
         },{
             "title": "Pasta Pesto",
-            "price": "72",
             "description": "Vegetarisk pasta med pesto, grädde och scharlottenlök.",
-            "standard": "72",
-            "liten": "65"
+            "standard": "68",
+            "plus": "83"
         },{
             "title": "Cheese n Chicken",
-            "price": "82",
             "description": "Krispig och saftig kycklinglårfilé i krämig sås av fyra ostar och så gul lök.",
             "standard": "82",
-            "liten": "72"
+            "plus": "97"
         },{
-            "title": "Oxfilepasta",
-            "price": "105",
+            "title": "Oxfilépasta",
             "description": "Krämig pasta med strimlad oxfilé, champinioner, scharlottenlök och timjan.",
             "standard": "105",
-            "liten": "85"
+            "plus": "120"
         },{
-            "title": "Mammas Kottfarsas",
-            "price": "78",
+            "title": "Mammas Köttfärssås",
             "description": "Alla vet att mammas köttfärsås är bäst. På blandfärs och riktig grädde. Tips - toppa med vitlöksås!",
             "standard": "78",
-            "liten": "68"
+            "plus": "93"
         },{
             "title": "Carbonara",
-            "price": "78",
             "description": "Alla dessa regler för hur en carbonara ska göras. Vi gör vår på vårt sätt och den är så god!",
             "standard": "78",
-            "liten": "68"
+            "plus": "93"
         }
     ]
 }

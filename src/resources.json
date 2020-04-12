@@ -11,10 +11,7 @@
             "id": "oppettider",
             "title": "Öppettider"
         },
-        { 
-            "id": "kontakt",
-            "title": "Kontakt"
-        },
+       
         { 
             "id": "var_resa",
             "title": "Vår resa"

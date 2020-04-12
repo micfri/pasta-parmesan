@@ -1,0 +1,61 @@
+.slide-container {
+    width: 100%;
+    margin: auto;
+
+}
+
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.each-slide {
+    /* min-height: 100px; */
+    /* overflow: hidden; */
+}
+
+.each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+}
+
+.each-fade {
+    display: flex;
+}
+
+.each-fade .image-container {
+    /* width: 100%;
+    overflow: hidden; */
+}
+
+
+.each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: pink;
+}
+
+.react-slideshow-container .nav  {
+    display: none !important;
+}
+
+.react-slideshow-container {
+    /* width: 100%; */
+}
+
+.react-slideshow-wrapper .images-wrap {
+    /* width: 100%; */
+}
+
+.logo {
+    width: 80%;
+}
