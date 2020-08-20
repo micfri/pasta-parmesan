@@ -55,10 +55,10 @@ const Address = () => {
       <div className="social-container">
         <div className="footer-entry">
           <img className="footer-icon" src={location} alt="Logo" />
-          <p>Här hittar du oss</p>
+          <p>Järnvägsgatan 18, Markaryd</p>
         </div>
         <div className="footer-entry">
-          <p>Jaa, alltså, platsen är största problemet just nu...</p>
+          <p>Gott om parkering finns i närheten</p>
         </div>
       </div>
       

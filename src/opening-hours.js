@@ -9,28 +9,26 @@ class OpeningHours extends Component {
 
   showSettings (event) {
     event.preventDefault();
-    
-    
   }
 
 
   constructor(props) {
     super(props);
     this.state = {
-
     };
   }
 
   render() {
     return (
-      <div className="OpeningHours page-component">
+      <div className="OpeningHours page-component">        
         <div className="page-title-container"><h1>Öppettider</h1></div>
-        <div className="box-250">Vi har inte öppnat ännu, men när vi gör det så kommer vi ha de här öppettiderna.</div>
+        <div className="box-250">Ni hittar oss på Järnvägsgatan 18 i Markaryd, här är våra öppettider:</div>
         <div>
           <h3>Måndag - Fredag</h3>
           <h3>11.30 - 13:30</h3>
         </div>
-      
+
+       
       </div>
     );    
   }
