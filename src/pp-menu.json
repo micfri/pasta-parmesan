@@ -1,23 +1,23 @@
 {
     "ppmenu": [
         {
-            "title": "Skaldjurspasta",
-            "description": "Fräsch pasta med handpillade räkor, vitt vin, purjolök, chilli och vitlök.",
-            "standard": "98",
-            "plus": "113"
+            "title": "Ham n Cheese",
+            "description": "Krämig sås med mild ost, gul lök och tärnad skinka.",
+            "standard": "78",
+            "plus": "93"
         },{
             "title": "Pasta Pesto",
-            "description": "Vegetarisk pasta med pesto, grädde och scharlottenlök.",
+            "description": "Vegetarisk pasta med pesto, grädde och vitlök.",
             "standard": "68",
             "plus": "83"
         },{
             "title": "Cheese n Chicken",
-            "description": "Krispig och saftig kycklinglårfilé i krämig sås av fyra ostar och så gul lök.",
+            "description": "Krispig och saftig kycklinglårfilé i krämig sås av mild ost och så gul lök.",
             "standard": "82",
             "plus": "97"
         },{
             "title": "Oxfilépasta",
-            "description": "Krämig pasta med strimlad oxfilé, champinioner, scharlottenlök och timjan.",
+            "description": "Krämig pasta med strimlad oxfilé, champinioner och scharlottenlök.",
             "standard": "105",
             "plus": "120"
         },{

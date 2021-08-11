@@ -52,8 +52,7 @@ class RestaurantMenu extends Component {
           <div className="menu-extras-item">
             <h2 className="bold">Extra tillval</h2>
             <p>Vitlökssås 9kr</p>
-            <p>Het salsa 9kr</p>
-            <p>Parmesan 12kr</p>
+            <p>Parmesan 7kr</p>
           </div>
           <div className="menu-extras-item">
             <h2 className="bold">Allergier</h2>

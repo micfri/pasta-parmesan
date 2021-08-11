@@ -73,11 +73,6 @@ const Slideshow = () => {
             <img className="header-pic" src={pesto} alt="Logo" />
           </div>
         </div>
-        <div className="each-slide">
-          <div >
-            <img className="header-pic" src={seafood} alt="Logo" />
-          </div>
-        </div>
       </Slide>
     </div>
   )
