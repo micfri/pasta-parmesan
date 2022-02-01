@@ -8,7 +8,6 @@ import carbonara from './images/carbonara.jpg';
 import formaggio from './images/formaggio.jpg';
 import oxfile from './images/oxfile.jpg';
 import pesto from './images/pesto.jpg';
-import seafood from './images/seafood.jpg';
 
 class Header extends Component {  
 
@@ -27,11 +26,6 @@ class Header extends Component {
 }
 
 export default Header;
-
-const slideImages = [
-  require('./images/IMG_8920.jpg'),
-  require('./images/IMG_9408.jpg')
-];
 
 const properties = {
   duration: 5000,

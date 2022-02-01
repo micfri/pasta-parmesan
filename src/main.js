@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
 import './burger-menu.css';
-import logo from './logo_2020.png';
 import { slide as Menu } from 'react-burger-menu';
 import resources from './resources.json';
 import { Route, Switch } from 'react-router-dom';
-import RestaurantMenu from './restaurant-menu.js';
 import PageComponent from './page-component.js';
 import Header from './header.js';
 import Footer from './footer.js';
@@ -71,19 +69,3 @@ const MenuList = ({ list }) => (
     ))}
   </Menu>
 );
-
-const Routes = ({ list }) => (
-  <Switch >
-      <div> Switch </div>
-      {list.map(route => (
-        <Route path="/" component={Example} />
-      ))}
-  
-    
-  </Switch>
-);
-
-const Example = () => (
-    <div>Example</div>
-
-  );
