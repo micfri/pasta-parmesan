@@ -2,10 +2,6 @@ import React, {Component} from 'react';
 import './App.css';
 import './burger-menu.css';
 import menu from './pp-menu.json';
-import logo from './logo.jpg';
-import { slide as Menu } from 'react-burger-menu';
-import resources from './resources.json';
-import { timeout } from 'q';
 
 class RestaurantMenu extends Component {
 

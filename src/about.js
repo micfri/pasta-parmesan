@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
 import './burger-menu.css';
-import { slide as Menu } from 'react-burger-menu';
 import YouTube from 'react-youtube';
 
 
@@ -69,12 +68,3 @@ class About extends Component {
 }
 
 export default About;
-
-
-const MenuList = ({ list }) => (
-  <Menu pageWrapId={ "page-wrap"}>
-    {list.map(menuItem => (
-      <a id={menuItem.id} className="menu-item" href={"/" + menuItem.id}>{menuItem.title}</a>
-    ))}
-  </Menu>
-);
